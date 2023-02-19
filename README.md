@@ -1,5 +1,5 @@
-# Sign_Me_Up : NewsLetter_signUp_website
-Sign Me Up : Node.js Web Application for Newsletter Signup
+
+# Sign Me Up : Node.js Web Application for Newsletter Signup
 
 
 - The newsletter signup website is a project that allows users to subscribe to a newsletter service by providing their email address. 
