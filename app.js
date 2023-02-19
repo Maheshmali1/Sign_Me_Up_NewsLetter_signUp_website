@@ -35,7 +35,7 @@ app.post("/",(req,res)=>{
 
     const options={
         method : "POST",
-        auth: "Mahesh:0f8a3bf44e574bae5bfd6a50942e6156-us8"
+        auth: process.env.APIKEY
     }
 
     const requestserver = http.request(url, options,(response)=>{
@@ -64,6 +64,3 @@ app.listen(process.env.PORT || 3000,()=>{
 })
 
 
-// api key : 1c8e4f96581c36c60941c433510a8f37-us8
-
-// list id : 6619755692
